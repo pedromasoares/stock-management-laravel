@@ -1,0 +1,28 @@
+# Laravel + Node.js Project Gitignore
+
+# Logs & sistema
+*.log
+Thumbs.db
+.DS_Store
+npm-debug.log
+
+# Ficheiros sensíveis
+.env
+.env.backup
+.env.production
+/storage/*.key
+
+# Diretórios de dependências
+/vendor
+/node_modules
+
+# Geração do frontend (Vite)
+public/build
+public/hot
+
+# Ficheiros do editor/IDE
+/.idea
+/.vscode
+/.fleet
+/.phpunit.cache
+/.phpunit.result.cache
