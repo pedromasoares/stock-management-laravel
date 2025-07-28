@@ -29,10 +29,10 @@ Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
   ## 📸 Capturas de Ecrã
 
 ### Painel Adicionar Produtos
-![Painel Add](screenshots/items.add.png)
+![Painel Add](screenshots/itemsadd.png)
 
 ### List Produto
-![List Item](screenshots/itemslist)
+![List Item](screenshots/itemslist.png)
 
 ### Add Category
 ![Add Category](screenshots/categoryadd.png)
