@@ -6,36 +6,36 @@
 ![Vite](https://img.shields.io/badge/Vite-Dev%20Server-yellow?style=for-the-badge&logo=vite&logoColor=blue)
 ![DBeaver](https://img.shields.io/badge/Gestão%20BD-DBeaver-5c7f94?style=for-the-badge&logo=databricks&logoColor=white)
 
-Aplicação web desenvolvida com **Laravel (PHP)** e **MariaDB**, com funcionalidades completas de **CRUD**, autenticação e painel administrativo.  
-Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
+Web application developed with **Laravel (PHP)** and **MariaDB**, with full **CRUD** functionality, authentication, and administrative panel.
+Project developed as part of a degree in Computer Engineering.
 
-## ✨ Funcionalidades
-- Autenticação de utilizadores (login/registo)
-- Criação, edição e remoção de produtos
-- Filtros por categoria e estado do stock
-- Painel administrativo com resumo de dados
-- Interface responsiva com Bootstrap
-- Utilização do **Vite** para compilação do frontend
+## ✨ Features
+- User authentication (login/registration)
+- Creation, editing, and removal of products
+- Filters by category and stock status
+- Administrative panel with data summary
+- Responsive interface with Bootstrap
+- Use of **Vite** for frontend compilation
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-- **Linguagem:** PHP 8.x  
+## 🛠️ Technologies and Tools Used
+- **Language:** PHP 8.x
 - **Framework:** Laravel 10  
-- **Base de Dados:** MariaDB  
-- **Gestão da BD:** DBeaver  
+- **Database:** MariaDB  
+- **DB Management:** DBeaver  
 - **Frontend:** Blade, HTML, CSS, Bootstrap  
-- **Build e Dev Server:** Vite (`npm run dev`)  
-- **Outras ferramentas:** Git, Composer, VS Code
+- **Build and Dev Server:** Vite (`npm run dev`)  
+- **Other tools:** Git, Composer, VS Code
 
-  ## 📸 Capturas de Ecrã
+  ## 📸 Screenshots
 
-### Painel Adicionar Produtos
-![Painel Add](screenshots/itemsadd.png)
+### Add Products Panel
+![Add Item](screenshots/itemsadd.png)
 
 ### List Produto
 ![List Item](screenshots/itemslist.png)
 
 ### Edit Produto
-![List Item](screenshots/itemsedit.png)
+![Edit Item](screenshots/itemsedit.png)
 
 ### Add Category
 ![Add Category](screenshots/categoryadd.png)
@@ -65,35 +65,35 @@ Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
 ![Edit Suppliers](screenshots/supplieredit.png)
 
 
-## 🚀 Como executar localmente
+## 🚀 How to run locally
 
 ```bash
-# Clonar o repositório
+# Clone the repository
 git clone https://github.com/teu-username/stock-management-laravel.git
 cd stock-management-laravel
 
-# Instalar dependências do backend
+# Install backend dependencies
 composer install
 
-# Instalar dependências do frontend
+# Install frontend dependencies
 npm install
 
-# Copiar ficheiro .env e gerar chave
+# Copy .env file and generate key
 cp .env.example .env
 php artisan key:generate
 
-# Configurar a base de dados no .env
+# Configure the database in .env
 DB_DATABASE=nome_da_base
 DB_USERNAME=teu_utilizador
 DB_PASSWORD=sua_password
 
-# Migrar as tabelas
+# Migrate the tables
 php artisan migrate
 
-# Iniciar o servidor Laravel
+# Start the Laravel server
 php artisan serve
 
-# Iniciar Vite (servidor de desenvolvimento do frontend)
+# Start Vite (frontend development server)
 npm run dev
 
 
