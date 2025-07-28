@@ -62,7 +62,7 @@ Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
 ![List Suppliers](screenshots/supplierlist.png)
 
 ### Edit Suppliers
-![Edit Suppliers](screenshots/supplieredt.png)
+![Edit Suppliers](screenshots/supplieredit.png)
 
 
 ## 🚀 Como executar localmente
