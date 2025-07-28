@@ -1,4 +1,4 @@
-# 🧾 Sistema de Gestão de Stock
+# 🧾 Stock Management System
 
 ![Laravel](https://img.shields.io/badge/Feito%20com-Laravel-red?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.x-blue?style=for-the-badge&logo=php&logoColor=white)
