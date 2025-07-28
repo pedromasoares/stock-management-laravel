@@ -34,11 +34,17 @@ Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
 ### List Produto
 ![List Item](screenshots/itemslist.png)
 
+### Edit Produto
+![List Item](screenshots/itemsedit.png)
+
 ### Add Category
 ![Add Category](screenshots/categoryadd.png)
 
 ### List Category
-![List Category](screenshots/categoryadd.png)
+![List Category](screenshots/categorylist.png)
+
+### Edit Category
+![Edit Category](screenshots/categoryedit.png)
 
 ### Add Brands
 ![Add Brand](screenshots/brandadd.png)
@@ -46,12 +52,17 @@ Projeto desenvolvido no âmbito da licenciatura em Engenharia Informática.
 ### List Brands
 ![List Brands](screenshots/brandlist.png)
 
+### Edit Brands
+![Edit Brands](screenshots/brandedit.png)
+
 ### Add Suppliers
 ![Add Suppliers](screenshots/supplieradd.png)
 
 ### List Suppliers
-![List Suppliers](screenshots/supllierlist.png)
+![List Suppliers](screenshots/supplierlist.png)
 
+### Edit Suppliers
+![Edit Suppliers](screenshots/supplieredt.png)
 
 
 ## 🚀 Como executar localmente
